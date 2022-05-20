@@ -30,7 +30,7 @@ class MovieItem extends Component {
             }}
             disabled={this.ifIdInFavorites(imdbID)}
           >
-            {this.ifIdInFavorites(imdbID) ? `✓` : "Добавить в список"}
+            {this.ifIdInFavorites(imdbID) ? `✓` : "Siyahıya əlavə et"}
           </button>
         </div>
       </article>

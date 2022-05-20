@@ -57,7 +57,7 @@ class Favorites extends Component {
             className="favorites__save"
             onClick={this.saveListHandler}
           >
-            Сохранить список
+            siyahını saxla
           </button>
         ) : (
           <button type="button" className="favorites__save">
@@ -66,7 +66,7 @@ class Favorites extends Component {
               target="_blank"
               className="link-to__list"
             >
-              Перейти к выбранным фильмам
+              Seçilmiş Filmlərə keçin
             </Link>
           </button>
         )}

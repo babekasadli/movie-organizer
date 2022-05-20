@@ -24,7 +24,7 @@ class SearchBox extends Component {
           onSubmit={this.searchBoxSubmitHandler}
         >
           <label className="search-box__form-label">
-            Искать фильм по названию:
+          Filmi başlığa görə axtarın:
             <input
               value={searchLine}
               type="text"
@@ -38,7 +38,7 @@ class SearchBox extends Component {
             className="search-box__form-submit"
             disabled={!searchLine}
           >
-            Искать
+            Axtar
           </button>
         </form>
       </div>

@@ -11,8 +11,6 @@ class ListPage extends Component {
     const id = this.props.match.params.id;
     console.log(id);
     this.props.getList(id);
-    // TODO: запрос к сервер на получение списка
-    // TODO: запросы к серверу по всем imdbID
   }
 
   render() {
@@ -32,30 +30,25 @@ class ListPage extends Component {
                 />
                 <div className="info">
                   <h3 className="movie-item__title">{item.Title}</h3>
-                  <h4 className="movie-item__about">О фильме</h4>
+                  <h4 className="movie-item__about">Film haqqında</h4>
                   <div className="list-page__details">
                     <div className="list-page__details-title">
-                      Год производства
+                    Buraxılış ili
                     </div>
                     <div className="list-page__details-value">{item.Year}</div>
                   </div>
                   <div className="list-page__details">
-                    <div className="list-page__details-title">Страна</div>
+                    <div className="list-page__details-title">Ölkə</div>
                     <div className="list-page__details-value">
                       {item.Country}
                     </div>
                   </div>
                   <div className="list-page__details">
-                    <div className="list-page__details-title">Жанр</div>
+                    <div className="list-page__details-title">Janr</div>
                     <div className="list-page__details-value">{item.Genre}</div>
                   </div>
                   <div className="list-page__details-value">
                     <ul className="movie-item__info-list">
-                      {/* <li id="movie-item__info-item">
-                        <button className="movie-item__add-button link-imdb">
-                          Обзор
-                        </button>
-                      </li> */}
                       <li id="movie-item__info-item">
                         <button className="movie-item__add-button link-imdb">
                           <a
@@ -64,13 +57,11 @@ class ListPage extends Component {
                             rel="noopener noreferrer"
                             className="list-page__link-imdb"
                           >
-                            see more on imdb
+                            IMDb-də daha çox baxın
                           </a>
                         </button>
                       </li>
                     </ul>
-                    {/* <p>{item.Plot}</p> */}
-                    {/* {this.state.isClicked ?  : null} */}
                   </div>
                 </div>
               </li>
