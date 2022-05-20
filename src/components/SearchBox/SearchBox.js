@@ -24,12 +24,12 @@ class SearchBox extends Component {
           onSubmit={this.searchBoxSubmitHandler}
         >
           <label className="search-box__form-label">
-          Filmi başlığa görə axtarın:
+          Filmi adına görə axtarın:
             <input
               value={searchLine}
               type="text"
               className="search-box__form-input"
-              placeholder="Например, Shawshank Redemption"
+              placeholder="Spider-Man: No Way Home, Doctor Strange"
               onChange={this.searchLineChangeHandler}
             />
           </label>

@@ -57,7 +57,7 @@ class ListPage extends Component {
                             rel="noopener noreferrer"
                             className="list-page__link-imdb"
                           >
-                            IMDb-də daha çox baxın
+                            IMDb-də daha ətraflı baxın &#8658;
                           </a>
                         </button>
                       </li>
