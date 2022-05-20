@@ -23,7 +23,7 @@
 
 .favorites__save {
   border: none;
-  background-color: #496ddb;
+  background-color: #00a00d;
   padding: 10px 15px;
   color: #ffeedb;
   font-size: 14px;
@@ -42,5 +42,5 @@
   border: 1px solid black;
 }
 .remove-favorite-movie:hover {
-  background-color: #496ddb;
+  background-color: #00a00d;
 }
